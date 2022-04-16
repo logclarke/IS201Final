@@ -1,0 +1,187 @@
+<!-- Logan Clarke (edited 16 April 2022 at 4:32 pm) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="../styles/css/mystyles.css" type="text/css">
+</head>
+<body style="background-color: black;">
+    <!-- Navigation bar -->
+    <div class="topnav">
+        <a href="about.html">About</a>
+        <a href="index.html">Home</a>
+    </div>
+    <!-- First tableau chart: map -->
+    <h2 class="section-header">Profit by State</h2>
+    <br>
+    <div class='tableauPlaceholder' id='viz1650138461452' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TW&#47;TWSBGZFWF&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='path' value='shared&#47;TWSBGZFWF' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TW&#47;TWSBGZFWF&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+            <param name='filter' value='publish=yes' />
+         </object>
+    </div>
+    <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1650138461452');                   
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+        var scriptElement = document.createElement('script');                   
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <br>
+    <div>
+       <center><p>This interactive map shows the profit by each state. The bigger the bubble, the larger the profit. 
+        From this map, we can see that California, New York, and Washington are the most profitable states.</p></center> 
+    </div>
+    <!-- Second Tableau chart: profit through time -->
+    <h2 class="section-header">Profit by Month</h2>
+    <br>
+    <div class='tableauPlaceholder' id='viz1650139428791' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Sheet 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitbyMonth_16501392590100&#47;Sheet2&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' />
+            <param name='name' value='ProfitbyMonth_16501392590100&#47;Sheet2' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitbyMonth_16501392590100&#47;Sheet2&#47;1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>                
+    <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1650139428791');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+    </script>
+    <br>
+    <div>
+        <center><p>Here we look at the profit by month of California. While there are plenty of fluctuations, 
+            there seems to be a positive trend as time goes on.</p></center> 
+     </div>
+     <!-- Third Tableau plot: breakdown of profit by category -->
+    <h2 class="section-header">Profit by Category (California)</h2>
+    <br>
+    <div class='tableauPlaceholder' id='viz1650140007408' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Sheet 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CA&#47;CACategoryProfits_16501400279480&#47;Sheet3&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' />
+            <param name='name' value='CACategoryProfits_16501400279480&#47;Sheet3' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CA&#47;CACategoryProfits_16501400279480&#47;Sheet3&#47;1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+            <param name='filter' value='publish=yes' />
+        </object>
+    </div>                
+    <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1650140007408');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <br>
+    <div>
+        <center><p>Continuing our analysis of California, here we see a breakdown of profit by category. To provide
+            additional insights, we further break down category by subcategory to see exactly where our profit streams
+            come from.
+        </p></center> 
+     </div>
+     <!-- Fourth Tableau chart: forecasted sales -->
+    <h2 class="section-header">Forecasted Sales for California</h2>
+    <br>
+    <div class='tableauPlaceholder' id='viz1650140198909' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Sheet 4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;ForecastedSales_16501402308250&#47;Sheet4&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' />
+            <param name='name' value='ForecastedSales_16501402308250&#47;Sheet4' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;ForecastedSales_16501402308250&#47;Sheet4&#47;1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+            <param name='filter' value='publish=yes' />
+        </object>
+    </div>                
+    <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1650140198909');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <br>
+    <div>
+        <center><p>To close out our analysis of California, we want to see how sales will be in the next 
+            two years. We want to look at the count of sales and then forecast that for the next few quarters.
+            We hope that Tableau's forecasting model is as accurate as a R's ARIMA model. For more information on 
+            time series analysis in R (specifically with ARIMA models), visit this 
+            <a href="https://rpubs.com/riazakhan94/arima_with_example" target="_blank">webpage.</a>
+        </p></center> 
+     </div>
+     <!-- Footer -->
+     <div class="footer">
+        <h3 class="footer-heading">CONTACT</h3>
+        <h3 class="footer-text">
+            notmyemaile@gmail.com | <a href="http://www.linkedin.com/in/loganclarke18" target="_blank">LinkedIn</a> | 801.123.1234
+        </h3>     
+    </div>
+
+</body>
+</html>
